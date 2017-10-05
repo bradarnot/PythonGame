@@ -1,11 +1,11 @@
 # PythonGame
 
-A simple game I made in Python 3 using PyGame. I don't own any of the images.
+A simple game I made in Python  using PyGame. I don't own any of the images.
 
 Game instructuions can be found in the main menu once you start the game.
 
 ## How to Run:
-`$> python3 game.py`
+`$> python game.py`
 
 ## Sources:
 [Monster images]{https://raw.githubusercontent.com/tlhunter/Cobalt-Calibur -3/master/assets/tilesets/monsters-32x32.png}
