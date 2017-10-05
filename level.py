@@ -16,8 +16,8 @@ class Level:
 		#Stores all the rooms in the current level
 		self.levelMap = []
 		#Holds the current level start at 0, main menu
-		self.level = 9
-		self.MAX_LEVEL = 1
+		self.level = 0
+		self.MAX_LEVEL = 4
 		#The background color below all the objects
 		self.background = pygame.Surface((size[0], size[1]))
 		self.background.fill((200, 200, 200))

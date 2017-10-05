@@ -1,4 +1,5 @@
 #Created by Bradley Arnot
+from __future__ import print_function
 import random
 import pygame
 from pygame import Surface
@@ -95,7 +96,7 @@ class Room:
 		
 		#If there are more or less collisions then the room placement is incorrect
 		if len(collisions) != 2:
-			print "ERROR: Adding " + str(room) + " connection to " + str(self) + ". " + str(len(collisions)) + " collisions with rooms."
+			print("ERROR: Adding " + str(room) + " connection to " + str(self) + ". " + str(len(collisions)) + " collisions with rooms.")
 
 		#Sort collision points in ascending order
 		if collisions[0].x > collisions[1].x or collisions[0].y > collisions[1].y:
